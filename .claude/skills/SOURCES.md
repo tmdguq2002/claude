@@ -28,3 +28,4 @@ anthropics/skills의 docx, xlsx, pptx, pdf, skill-creator, claude-api는 이미 
 ## 중복 정리 (superpowers 기준으로 통일)
 
 삭제한 스킬: tdd, diagnosing-bugs, grill-me, implement, implement-spec, writing-for-agents (superpowers 또는 다른 스킬과 중복), brand-guidelines (Anthropic 브랜드 전용), slides (design, frontend-slides와 중복), academy-guide (매 응답마다 실행됨), ask-matt, retro (삭제한 스킬에 의존).
+추가 삭제: caveman (i-have-adhd와 답변 스타일이 겹침).
