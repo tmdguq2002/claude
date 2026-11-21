@@ -13,3 +13,14 @@
 | last30days | https://github.com/mvanhorn/last30days-skill | bb2f1ed |
 | hallmark | https://github.com/Nutlope/hallmark | 04977e1 |
 | frontend-slides | https://github.com/zarazhangrui/frontend-slides | 9906a34 |
+| brainstorming,diagnosing-superpowers,dispatching-parallel-agents,executing-plans,finishing-a-development-branch,receiving-code-review,requesting-code-review,subagent-driven-development,systematic-debugging,test-driven-development,using-git-worktrees,using-superpowers,verification-before-completion,writing-plans,writing-skills | https://github.com/obra/superpowers | 22f0b46 |
+| skill-inspector | https://github.com/NVIDIA/SkillSpector | 48e0f94 |
+| ask-matt,codebase-design,diagnosing-bugs,domain-modeling,git-guardrails-claude-code,grill-me,grill-with-docs,grilling,handoff,implement,implement-spec,improve-codebase-architecture,pr,prototype,research,retro,setup-matt-pocock-skills,setup-pre-commit,tdd,teach,to-questionnaire,to-spec,to-tickets,triage,wait-what,wayfinder,wizard,writing-for-agents | https://github.com/mattpocock/skills | abeeaf9 |
+| security-audit | https://github.com/cloudflare/security-audit-skill | c1c8a8c |
+| planning-with-files | https://github.com/OthmanAdi/planning-with-files | c37abd7 |
+| i-have-adhd | https://github.com/ayghri/i-have-adhd | 1ecea19 |
+| canvas-design,slack-gif-creator,academy-guide,web-artifacts-builder,mcp-builder,discernment-nudge,algorithmic-art,webapp-testing,internal-comms,brand-guidelines,theme-factory,frontend-design,doc-coauthoring | https://github.com/anthropics/skills | e4bb5d9 |
+
+2차 설치분은 NVIDIA SkillSpector(정적 분석, --no-llm)로 검사했습니다. 점수가 높게 나온 항목은 직접 확인한 결과 오탐이었습니다(임시 파일 삭제, 자체 스크립트 실행, 문서 속 보안 권고 문장).
+mattpocock/skills의 code-review는 내장 /code-review와 이름이 같아 제외했습니다. in-progress 스킬도 제외했습니다.
+anthropics/skills의 docx, xlsx, pptx, pdf, skill-creator, claude-api는 이미 내장되어 있어 제외했습니다.
