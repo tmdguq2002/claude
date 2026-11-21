@@ -24,3 +24,7 @@
 2차 설치분은 NVIDIA SkillSpector(정적 분석, --no-llm)로 검사했습니다. 점수가 높게 나온 항목은 직접 확인한 결과 오탐이었습니다(임시 파일 삭제, 자체 스크립트 실행, 문서 속 보안 권고 문장).
 mattpocock/skills의 code-review는 내장 /code-review와 이름이 같아 제외했습니다. in-progress 스킬도 제외했습니다.
 anthropics/skills의 docx, xlsx, pptx, pdf, skill-creator, claude-api는 이미 내장되어 있어 제외했습니다.
+
+## 중복 정리 (superpowers 기준으로 통일)
+
+삭제한 스킬: tdd, diagnosing-bugs, grill-me, implement, implement-spec, writing-for-agents (superpowers 또는 다른 스킬과 중복), brand-guidelines (Anthropic 브랜드 전용), slides (design, frontend-slides와 중복), academy-guide (매 응답마다 실행됨), ask-matt, retro (삭제한 스킬에 의존).
